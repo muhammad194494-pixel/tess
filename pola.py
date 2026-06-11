@@ -30,7 +30,7 @@ warnings.filterwarnings('ignore')
 DATA_MAIN   = "aviator_data.json"
 MODEL_FILE  = "aviator_power_model.keras"
 SCALER_FILE = "aviator_power_scaler.pkl"
-SEQ_LEN     = 8
+SEQ_LEN     = 4
 N_FEATURES  = 8   # Fitur: log, return, vol5, mean5, momentum, skew7, rsi14, slope5
 MIN_DATA    = SEQ_LEN + 20
 LOOKAHEAD   = 1
