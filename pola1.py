@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 DATA_PATTERN  = "aviator_data*.json"
 MODEL_FILE    = "aviator_model.keras"
 SCALER_FILE   = "aviator_scaler.pkl"
-SEQ_LEN       = 8        # lebih panjang = lebih banyak konteks
+SEQ_LEN       = 4        # lebih panjang = lebih banyak konteks
 TEST_SPLIT    = 0.15     # 15% data buat evaluasi
 EPOCHS        = 300
 BATCH_SIZE    = 16
