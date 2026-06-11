@@ -30,7 +30,7 @@ warnings.filterwarnings('ignore')
 DATA_MAIN   = "aviator_data.json"
 MODEL_FILE  = "aviator_model_advanced.keras"
 SCALER_FILE = "aviator_scaler_advanced.pkl"
-SEQ_LEN     = 8                     # Lebih panjang dari sebelumnya
+SEQ_LEN     = 4                     # Lebih panjang dari sebelumnya
 N_FEATURES  = 5                     # Jumlah fitur engineered
 MIN_DATA    = SEQ_LEN + 20
 LOOKBACK    = SEQ_LEN
